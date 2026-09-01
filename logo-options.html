@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Safe Group — Logo Options</title>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --background: hsl(222 47% 5%);
+    --card: hsl(221 39% 8%);
+    --foreground: hsl(210 40% 96%);
+    --muted: hsl(215 20% 62%);
+    --primary: hsl(187 92% 45%);
+    --border: hsl(220 26% 15%);
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--background);
+    color: var(--foreground);
+    font-family: 'Inter', sans-serif;
+    padding: 56px 24px;
+  }
+  .wrap { max-width: 900px; margin: 0 auto; }
+  .intro { text-align: center; margin-bottom: 56px; }
+  .intro h1 { font-family: 'Space Grotesk', sans-serif; font-size: 22px; font-weight: 600; margin: 0; }
+  .intro p { color: var(--muted); font-size: 14px; margin: 10px 0 0; }
+  .option {
+    border: 1px solid var(--border);
+    background: var(--card);
+    margin-bottom: 28px;
+    padding: 40px;
+  }
+  .option-label {
+    font-size: 11.5px;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    color: var(--primary);
+    margin-bottom: 24px;
+  }
+  .lockup { display: flex; align-items: center; gap: 16px; margin-bottom: 20px; }
+  .brand-text { display: flex; flex-direction: column; line-height: 1; }
+  .brand-text .name { font-family: 'Space Grotesk', sans-serif; font-size: 20px; font-weight: 600; letter-spacing: .1em; }
+  .brand-text .sub { margin-top: 6px; font-size: 11px; letter-spacing: .18em; text-transform: uppercase; color: var(--muted); }
+  .option-note { font-size: 13.5px; color: var(--muted); line-height: 1.6; max-width: 560px; }
+  svg { flex-shrink: 0; display: block; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="intro">
+    <h1>Safe Group — three mark options</h1>
+    <p>Same cyan (#09C4DC), same navy ground, three different marks</p>
+  </div>
+
+  <div class="option">
+    <div class="option-label">Option 1 — Refined frame</div>
+    <div class="lockup">
+      <svg width="52" height="52" viewBox="0 0 52 52">
+        <rect x="1" y="1" width="50" height="50" fill="none" stroke="#09C4DC" stroke-opacity="0.55" stroke-width="1"/>
+        <rect x="1" y="1" width="50" height="50" fill="#09C4DC" fill-opacity="0.08"/>
+        <path d="M38 1 L51 1 L51 14" fill="none" stroke="#09C4DC" stroke-width="2"/>
+        <text x="26" y="32" text-anchor="middle" font-family="Space Grotesk, sans-serif" font-size="16" font-weight="700" fill="#09C4DC" letter-spacing="-0.5">SG</text>
+      </svg>
+      <div class="brand-text">
+        <span class="name">SAFE GROUP</span>
+        <span class="sub">Risk &amp; Assurance</span>
+      </div>
+    </div>
+    <p class="option-note">Closest to the current mark, just tightened up — a single hairline frame instead of a double border, letterforms centred and slightly larger, and one clean corner tick instead of a heavier bracket. Reads as a refinement, not a change, if you want continuity.</p>
+  </div>
+
+  <div class="option">
+    <div class="option-label">Option 2 — Seal / monogram</div>
+    <div class="lockup">
+      <svg width="52" height="52" viewBox="0 0 52 52">
+        <circle cx="26" cy="26" r="24.5" fill="none" stroke="#09C4DC" stroke-opacity="0.55" stroke-width="1"/>
+        <circle cx="26" cy="26" r="24.5" fill="#09C4DC" fill-opacity="0.07"/>
+        <circle cx="26" cy="26" r="19" fill="none" stroke="#09C4DC" stroke-opacity="0.35" stroke-width="0.5"/>
+        <text x="26" y="32" text-anchor="middle" font-family="Space Grotesk, sans-serif" font-size="15" font-weight="700" fill="#09C4DC" letter-spacing="-0.3">SG</text>
+      </svg>
+      <div class="brand-text">
+        <span class="name">SAFE GROUP</span>
+        <span class="sub">Risk &amp; Assurance</span>
+      </div>
+    </div>
+    <p class="option-note">A seal/badge form — a double ring around the initials, closer to how an assurance or advisory firm marks itself (think notary seal, not tech logo). Leans into the "assurance" half of the new positioning; works well small on a business card or letterhead.</p>
+  </div>
+
+  <div class="option">
+    <div class="option-label">Option 3 — Node mark</div>
+    <div class="lockup">
+      <svg width="52" height="52" viewBox="0 0 52 52">
+        <rect x="1" y="1" width="50" height="50" fill="none" stroke="#09C4DC" stroke-opacity="0.4" stroke-width="1"/>
+        <rect x="1" y="1" width="50" height="50" fill="#09C4DC" fill-opacity="0.06"/>
+        <circle cx="26" cy="14" r="2" fill="#09C4DC"/>
+        <circle cx="26" cy="14" r="5.5" fill="none" stroke="#09C4DC" stroke-opacity="0.4" stroke-width="1"/>
+        <text x="26" y="38" text-anchor="middle" font-family="Space Grotesk, sans-serif" font-size="14" font-weight="700" fill="#09C4DC" letter-spacing="-0.3">SG</text>
+      </svg>
+      <div class="brand-text">
+        <span class="name">SAFE GROUP</span>
+        <span class="sub">Risk &amp; Assurance</span>
+      </div>
+    </div>
+    <p class="option-note">Borrows the pulsing node/geo-marker motif already used across the site (hero backdrop, live status dots) and puts it directly in the mark — a small tracked point above the initials. Ties the logo itself to the "real-time, on-the-ground" story rather than being a generic badge.</p>
+  </div>
+</div>
+</body>
+</html>

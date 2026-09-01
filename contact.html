@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — Safety & Security Risk Services in Libya | Safe Group</title>
+<meta name="description" content="Contact Safe Group in Tripoli for safety and security risk services, or request a demo of Watchpoint, our technology partner.">
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+
+<header class="site">
+  <div class="barinner">
+    <a href="index.html" class="brand" aria-label="Safe Group home">
+      <svg class="brand-mark" viewBox="0 0 52 52" aria-hidden="true"><circle cx="26" cy="26" r="24.5" fill="none" stroke="#09C4DC" stroke-opacity="0.55" stroke-width="1"/><circle cx="26" cy="26" r="24.5" fill="#09C4DC" fill-opacity="0.07"/><circle cx="26" cy="26" r="19" fill="none" stroke="#09C4DC" stroke-opacity="0.35" stroke-width="0.5"/><text x="26" y="32" text-anchor="middle" font-family="Space Grotesk, sans-serif" font-size="15" font-weight="700" fill="#09C4DC" letter-spacing="-0.3">SG</text></svg>
+      <span class="brand-text">
+        <span class="name font-display">SAFE GROUP</span>
+        <span class="sub">Risk &amp; Assurance</span>
+      </span>
+    </a>
+    <nav class="primary" aria-label="Primary">
+      <a href="services.html" class="navlink">Services</a>
+      <a href="watchpoint.html" class="navlink">Technology</a>
+      <a href="about.html" class="navlink">About</a>
+      <a href="clients.html" class="navlink">Clients</a>
+      <a href="contact.html" class="navlink">Contact</a>
+      <a href="contact.html?topic=watchpoint" class="btn-demo-nav">Request a demo
+        <svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M7 7h10v10"/></svg>
+      </a>
+    </nav>
+    <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">
+      <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+    </button>
+  </div>
+  <nav class="mobile-nav" aria-label="Mobile">
+    <a href="services.html" class="navlink">Services</a>
+    <a href="watchpoint.html" class="navlink">Technology</a>
+    <a href="about.html" class="navlink">About</a>
+    <a href="clients.html" class="navlink">Clients</a>
+    <a href="contact.html" class="navlink">Contact</a>
+    <a href="contact.html?topic=watchpoint" class="btn btn-primary btn-demo-nav">Request a Watchpoint demo</a>
+  </nav>
+</header>
+
+<section class="hero" style="min-height:44vh;">
+  <div class="geo-backdrop" aria-hidden="true">
+    <div class="bg-geo-grid" style="position:absolute;inset:0;"></div>
+    <div class="fade"></div>
+  </div>
+  <div class="wrap">
+    <div class="reveal in">
+      <span class="eyebrow-pill"><span class="pulse-dot"></span>Contact</span>
+      <h1 class="hero-h1 font-display" style="font-size:clamp(30px,4.6vw,48px); max-width:640px;">Start the conversation.</h1>
+      <p class="hero-lede">Two ways in — tell us whether you're here for risk services on the ground, or for the Watchpoint platform.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section" style="padding-bottom:0;">
+  <div class="wrap">
+    <div class="contact-paths">
+      <button type="button" class="contact-path" data-topic="risk_services" id="path-risk">
+        <span class="card-icon"><svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2 4 6v6c0 5 3.4 8.7 8 10 4.6-1.3 8-5 8-10V6l-8-4z"/></svg></span>
+        <h2 class="font-display">Risk services</h2>
+        <p>Physical risk operations, mobile response, risk assessment, or financial due diligence — tell us about your operation and risk profile.</p>
+        <span class="picked">
+          <svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6 9 17l-5-5"/></svg>
+          Selected — start a risk inquiry
+        </span>
+      </button>
+      <button type="button" class="contact-path" data-topic="watchpoint_demo" id="path-watchpoint">
+        <span class="card-icon"><svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M9 9h6v6H9z"/></svg></span>
+        <h2 class="font-display">Watchpoint platform</h2>
+        <p>See real-time tracking, AI incident classification, offline-first reporting, and geofenced clock-in on a live deployment.</p>
+        <span class="picked">
+          <svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6 9 17l-5-5"/></svg>
+          Selected — request a demo
+        </span>
+      </button>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="contact-grid">
+      <div class="reveal" id="inquiry-form">
+        <div id="form-block">
+          <form class="inquiry" id="inquiryForm" novalidate>
+            <h2 class="font-display">Send an inquiry</h2>
+            <div class="field-grid">
+              <div class="field">
+                <label for="name">Full name *</label>
+                <input id="name" type="text" placeholder="Your name" autocomplete="name">
+                <span class="err" id="name-err"></span>
+              </div>
+              <div class="field">
+                <label for="email">Work email *</label>
+                <input id="email" type="email" placeholder="you@company.com" autocomplete="email">
+                <span class="err" id="email-err"></span>
+              </div>
+              <div class="field">
+                <label for="company">Company / organisation</label>
+                <input id="company" type="text" placeholder="Organisation name" autocomplete="organization">
+              </div>
+              <div class="field">
+                <label for="topic">Inquiry type *</label>
+                <select id="topic">
+                  <option value="risk_services">Risk services inquiry</option>
+                  <option value="watchpoint_demo">Watchpoint demo request</option>
+                  <option value="general">General inquiry</option>
+                </select>
+              </div>
+              <div class="field span2">
+                <label for="message">Message *</label>
+                <textarea id="message" rows="5" placeholder="Tell us about your sites, your operation, or what you'd like to see in a Watchpoint demo."></textarea>
+                <span class="err" id="message-err"></span>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary form-submit">Send inquiry</button>
+          </form>
+        </div>
+        <div class="form-success hidden" id="form-success">
+          <span class="tick"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6 9 17l-5-5"/></svg></span>
+          <h2 class="font-display">Inquiry received.</h2>
+          <p>Thank you — a member of the SG team will respond within one business day. For urgent matters, email us directly at <a href="mailto:info@safegroup.ly">info@safegroup.ly</a>.</p>
+        </div>
+      </div>
+
+      <aside class="direct reveal">
+        <h2>Direct details</h2>
+        <div class="detail-list">
+          <div class="detail-item">
+            <svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 6 12 13 2 6"/><path d="M2 6h20v12H2z"/></svg>
+            <div><div class="lbl">Email</div><div class="val"><a href="mailto:info@safegroup.ly">info@safegroup.ly</a></div></div>
+          </div>
+          <div class="detail-item">
+            <svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3-8.7A2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.3 1.8.6 2.7a2 2 0 0 1-.4 2.1L8 9.9a16 16 0 0 0 6 6l1.4-1.4a2 2 0 0 1 2.1-.4c.9.3 1.8.5 2.7.6a2 2 0 0 1 1.8 2.2z"/></svg>
+            <div><div class="lbl">Phone</div><div class="val">+218 21 000 0000</div></div>
+          </div>
+          <div class="detail-item">
+            <svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <div><div class="lbl">Tripoli headquarters</div><div class="val">Tripoli, Libya — [street address to be added]</div></div>
+          </div>
+        </div>
+        <div class="aside-note">We respond to all inquiries within one business day. For active incidents affecting an existing client site, use your designated 24/7 operations contact.</div>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<footer class="site">
+  <div class="wrap footer-top">
+    <div>
+      <div class="footer-brand">
+        <svg class="brand-mark" viewBox="0 0 52 52" aria-hidden="true"><circle cx="26" cy="26" r="24.5" fill="none" stroke="#09C4DC" stroke-opacity="0.55" stroke-width="1"/><circle cx="26" cy="26" r="24.5" fill="#09C4DC" fill-opacity="0.07"/><circle cx="26" cy="26" r="19" fill="none" stroke="#09C4DC" stroke-opacity="0.35" stroke-width="0.5"/><text x="26" y="32" text-anchor="middle" font-family="Space Grotesk, sans-serif" font-size="15" font-weight="700" fill="#09C4DC" letter-spacing="-0.3">SG</text></svg>
+        <span class="name font-display">SAFE GROUP</span>
+      </div>
+      <p class="footer-about">One of Libya's earliest safety and security risk firms, founded in 2009 — protecting people, assets, and decisions across Libya.</p>
+      <div class="footer-tags"><span>Tripoli · Libya</span></div>
+    </div>
+    <div class="footer-col">
+      <h3>Services</h3>
+      <ul>
+        <li><a href="services.html#physical-risk">Physical Risk Operations</a></li>
+        <li><a href="services.html#mobile-risk">Mobile Risk Response</a></li>
+        <li><a href="services.html#risk-assessment">Risk Assessment &amp; Advisory</a></li>
+        <li><a href="services.html#due-diligence">Financial &amp; Integrity Due Diligence</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h3>Company</h3>
+      <ul>
+        <li><a href="about.html">About &amp; history</a></li>
+        <li><a href="clients.html">Clients</a></li>
+        <li><a href="watchpoint.html">Technology</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h3>Contact</h3>
+      <ul>
+        <li class="fitem"><svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 6 12 13 2 6"/><path d="M2 6h20v12H2z"/></svg><a href="mailto:info@safegroup.ly">info@safegroup.ly</a></li>
+        <li class="fitem"><svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3-8.7A2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.3 1.8.6 2.7a2 2 0 0 1-.4 2.1L8 9.9a16 16 0 0 0 6 6l1.4-1.4a2 2 0 0 1 2.1-.4c.9.3 1.8.5 2.7.6a2 2 0 0 1 1.8 2.2z"/></svg><span>+218 21 000 0000</span></li>
+        <li class="fitem"><svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg><span>Tripoli, Libya</span></li>
+      </ul>
+    </div>
+  </div>
+  <div class="wrap footer-bottom">
+    <span>© 2026 Safe Group (SG). All rights reserved.</span>
+    <span class="tag">Risk · Field Operations · Technology</span>
+  </div>
+</footer>
+
+<script src="assets/main.js"></script>
+<script>
+  document.querySelectorAll('a.navlink').forEach((a) => {
+    if (a.getAttribute('href') === 'contact.html') a.classList.add('active');
+  });
+  // Pre-select topic from ?topic= param
+  const params = new URLSearchParams(window.location.search);
+  const topicParam = params.get('topic');
+  const topicSelect = document.getElementById('topic');
+  const pathRisk = document.getElementById('path-risk');
+  const pathWatchpoint = document.getElementById('path-watchpoint');
+  if (topicParam === 'watchpoint') {
+    topicSelect.value = 'watchpoint_demo';
+    pathWatchpoint.classList.add('active');
+  } else if (topicParam === 'risk') {
+    topicSelect.value = 'risk_services';
+    pathRisk.classList.add('active');
+  }
+</script>
+</body>
+</html>
